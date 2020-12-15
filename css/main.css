@@ -1,0 +1,144 @@
+.todolist {
+  background: gray;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.todolist h2 {
+  text-align: center;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+body {
+  background: #630000;
+}
+
+.todolist ul li {
+  list-style: none;
+  font-size: 20px;
+  color: black;
+  padding: 10px 20px;
+
+  margin-top: 10px;
+  z-index: 1;
+}
+
+.todolist ul {
+  margin-left: 20px;
+  padding: 0px;
+}
+.todolist input{
+  width: 90% !important;
+  margin-left: 40px;
+}
+.todolist button {
+  position: absolute;
+  right: 19px;
+  top: 29px;
+}
+
+.todolist {
+  position: relative;
+}
+
+.todoChild {
+  position: relative;
+}
+
+.todoChild i {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 23px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  padding-top: 13px;
+  cursor: pointer;
+  z-index: 2;
+}
+.todoChild i:hover{
+  background: red;
+  color: white;
+}
+
+.todoChild:hover {
+  background: #ddd;
+  color: black;
+  border-radius: 15px;
+}
+.todolist input::placeholder {
+  padding-left: 5px;
+  font-size: 20px;
+}
+.attendance {
+  background: #316502;
+  padding: 40px 40px;
+}
+
+.attendance input {
+  width: 100%;
+  padding-left: 15px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  margin-bottom: 15px;
+}
+ul.attendanceStudent li {
+  list-style: none;
+  color: white;
+  font-size: 20px;
+}
+
+.attendance {
+  position: relative;
+}
+
+ul.attendanceStudent li {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+button.attendancePresent {
+  position: absolute;
+  right: 196px;
+  top: 0px;
+}
+
+button.attendanceAbsence {
+  position: absolute;
+  right: 98px;
+  top: 0px;
+}
+
+ul.attendanceStudent li button {
+  font-size: 14px;
+  width: 81px;
+  height: 29px;
+}
+
+i.fal.fa-times.aDelete {
+  position: absolute;
+  right: 41px;
+  top: 0px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  padding-top: 6px;
+  background: #fff;
+  color: red;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid gray;
+  transition: .5s all;
+}
+
+i.fal.fa-times.aDelete:hover {
+  background: red;
+  color: #fff;
+}
+
+i.fal.fa-times.adelete {}
