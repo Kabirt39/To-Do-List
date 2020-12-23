@@ -1,8 +1,4 @@
 
-
-
-
-
 function addTodo(){
 
     let todolist = document.getElementById('todolist').value;
